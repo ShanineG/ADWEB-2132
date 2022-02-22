@@ -1,0 +1,27 @@
+<br><br>
+<div class="heads">
+    <h2>Product Details</h2>
+</div>
+<div class="prod-dets">
+    <div class="out">
+        <div>
+            <h5>Product Name</h5>
+            <p  *ngFor="let prod of product; let i = index">
+                {{prod.prod_name}}
+            </p>
+        </div>
+        <div>
+            <h5>Product ID</h5>
+            <p  *ngFor="let prod of product; let i = index">
+                {{prod.prod_ID}}
+            </p>
+        </div>
+        <div>
+            <h5>Price</h5>
+            <p  *ngFor="let prod of product; let i = index">
+                {{prod.price}}
+            </p>
+        </div>
+        
+    </div>
+</div>
